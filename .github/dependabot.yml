@@ -7,7 +7,7 @@ updates:
       day: "sunday"
       time: "11:00" # 11am UTC
     ignore:
-      # Ignore forked linters because of their versioning issues.
+      # Ignore forked linters because of their versioning issues.,
       - dependency-name: "github.com/golangci/dupl"
       - dependency-name: "github.com/golangci/gofmt"
       - dependency-name: "github.com/golangci/swaggoswag"

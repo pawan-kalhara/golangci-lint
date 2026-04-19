@@ -27,7 +27,7 @@ updates:
     groups:
       docker:
         patterns:
-          - "*"  # Group all updates into a single larger pull request.
+          - "*"  # Group all updates into a single larger pull request.gb
   - package-ecosystem: gomod
     directory: "/scripts/gen_github_action_config"
     schedule:
